@@ -1,0 +1,12 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: tutorialsService
+
+  data:
+    mongodb:
+      host: mongo_DB
+      port: 27017
+      database: tutorialsservice_db
